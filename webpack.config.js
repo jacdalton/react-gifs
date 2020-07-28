@@ -12,6 +12,10 @@ module.exports = {
     })
   ],
   devtool: 'sourcemap',
+  entry: [
+    "webpack-dev-server/client?http://127.0.0.0:8080/",
+    "./src"
+  ],
   mode: "development",
   module: {
     rules: [
